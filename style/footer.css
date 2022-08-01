@@ -1,0 +1,142 @@
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #242424;
+    padding-top: 90px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    color: #FFF;
+}
+
+.footer p {
+    width: 65%;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 15px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    margin: 30px 0;
+}
+
+.footer-hr {
+    width: 90%;
+    height: 1px;
+    background-color: #FFF;
+    margin: 0;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    margin: 50px 0;
+}
+
+.footer-icons a {
+    color: #FFF;
+    font-size: 13px;
+}
+
+.footer-bottom p {
+    text-align: center;
+    color: #FFF;
+    font-size: 13px;
+    padding: 15px 0;
+    background-color: #303030;
+}
+
+.tel {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px 0 rgb(46 58 70 / 35%);
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tel i {
+    color: #2DB8F5;
+    font-size: 40px;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: #FF4E00;
+    border-radius: 15px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    text-decoration: none;
+}
+
+.top i {
+    color: #FFF;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer-icons {
+        width: 65%;
+    }
+
+    .tel {
+        width: 60px;
+        height: 60px;
+    }
+
+    .tel i {
+        font-size: 24px;
+    }
+
+    .top {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-hr {
+        width: 100%;
+    }
+
+    .footer-icons {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .footer p {
+        width: 95%;
+        font-size: 14px;
+    }
+
+    .footer-icons {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .footer-bottom p {
+        font-size: 13px;
+    }
+
+    .tel {
+        left: 2%;
+        bottom: 2%;
+    }
+}
+

@@ -1,0 +1,48 @@
+.section7-block {
+    width: 90%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section7-item h1 {
+    font-size: 90px;
+    color: #2DB8F5;
+    text-align: center;
+}
+
+.section7-item p {
+    color: #242424;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+@media screen and (max-width: 1024px) {
+    .section7-item h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .section7-item p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .section7-block {
+        flex-direction: column;
+    }
+
+    .section7-item h1 {
+        font-size: 30px;
+    }
+
+    .section7-item p {
+        font-size: 18px;
+    }
+
+    .section7-block .section7-item:not(:last-child) {
+        margin-bottom: 20px
+    }
+}

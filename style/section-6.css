@@ -1,0 +1,64 @@
+.section-6 {
+    background-image: url('https://template66383.motopreview.com/mt-demo/66300/66383/mt-content/uploads/2018/03/mt-1378-home3-header-bg.jpg');
+    color: #FFF;
+    background-position: 70px;
+    padding: 30px 30px 30px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section6-btn {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section6-btn button {
+    width: 45%;
+}
+
+.section6-txt {
+    width: 50%;
+}
+
+.section6-txt p {
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+    .section6-txt {
+        width: 60%;
+    }
+
+    .section6-txt h2 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .section6-txt {
+        width: 95%;
+    }
+
+    .section6-txt h2 {
+        font-size: 23px;
+    }
+
+    .section6-txt p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .section6-btn {
+        flex-direction: column;
+    }
+
+    .section6-btn button {
+        width: 55%;
+    }
+
+    .section6-btn button:first-child {
+        margin-bottom: 10px;
+    }
+}

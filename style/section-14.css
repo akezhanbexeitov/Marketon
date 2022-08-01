@@ -1,0 +1,130 @@
+.section-14 {
+    padding: 90px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section14-block {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section14-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.block-address .section-title {
+    margin-bottom: 60px;
+}
+
+.address-item {
+    margin-bottom: 30px;
+}
+
+.address-item span {
+    margin-left: 30px;
+    color: #3e3e3e;
+}
+
+.address-item i {
+    font-size: 24px;
+    color: #2db8f5;
+}
+
+.address-item a {
+    color: #3e3e3e;
+    text-decoration: none;
+}
+
+.address-item a:hover {
+    color: #2db8f5;
+}
+
+.section14-h1 {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.section14-form {
+    margin-top:  130px;
+    width: 45%;
+    margin-left: 50px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.section14-form input, .section14-form textarea {
+    width: 100%;
+    padding: 20px 0 20px 15px;
+    border-radius: 30px;
+    border: 2px solid #e3eaf3;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.section14-form button {
+    width: 40%;
+}
+
+.section14-form input::placeholder, .section14-form textarea::placeholder {
+    font-size: 16px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.section14-form input:focus, .section14-form textarea:focus {
+    border: 2px solid #6427af;
+}
+
+@media screen and (max-width: 1024px) {
+    .section14-block {
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .address-item {
+        font-size: 13px;
+    }
+
+    .address-item i {
+        font-size: 18px;
+    }
+
+    .section14-form {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .section-14 {
+        padding: 40px 0;
+    }
+
+    .block-address .section-title {
+        margin-top: 0;
+        margin-bottom: 30px;
+        width: 30%;
+    }
+
+    .address-item span {
+        font-size: 14px;
+    }
+
+    .section14-block {
+        flex-wrap: wrap;
+    }
+
+    .block-address {
+        width: 95%;
+    }
+
+    .section14-form {
+        width: 95%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,140 @@
+.section-1 {
+    background-image: url('https://template66383.motopreview.com/mt-demo/66300/66383/mt-content/uploads/2018/03/mt-1378-home3-header-bg.jpg');
+    height: 120vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1-txt {
+    width: 40%;
+    font-family: 'Varela Round', sans-serif;
+    color: #FFF;
+    margin-left: 30px;
+}
+
+.section1-txt h1 {
+    font-size: 100px;
+}
+
+.section1-txt h2, .section6-txt h2 {
+    font-size: 30px;
+}
+
+.section1-txt p, .section6-txt p{
+    font-size: 18px;
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+.btn {
+    border: none;
+    padding: 20px 40px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.white-btn {
+    background-color: #FFF;
+}
+
+.transparent-btn {
+    background-color: transparent;
+    border: 2px solid #FFF;
+    color: #FFF;
+}
+
+.section1-btn {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .section-1 {
+        height: 70vh;
+    }
+
+    .section-1 img {
+        width: 50%;
+    }
+
+    .section1-txt h1 {
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
+
+    .section1-txt h2 {
+        font-size: 23px;
+    }
+
+    .section1-txt p {
+        font-size: 16px;
+    }
+
+    .section1-btn {
+        width: 85%;
+    }
+
+    .section1-btn button {
+        display: flex;
+        justify-content: space-around;
+        font-size: 12px;
+    }
+
+    .btn {
+        width: 40%;
+        padding: 12px 9px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section1-btn button {
+        width: 47%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .section-1 {
+        height: 100vh;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        padding: 1rem 0;
+    }
+
+    .section-1 img {
+        width: 80%;
+    }
+
+    .section1-txt {
+        width: 90%;
+        margin-left: 0px;
+    }
+
+    .section1-txt h1 {
+        font-size: 30px;
+    }
+
+    .section1-txt h2 {
+        font-size: 20px;
+    }
+
+    .section1-txt p {
+        line-height: 22px;
+        font-size: 16px;
+    }
+
+    .section1-btn {
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+    .section-1 .transparent-btn {
+        margin: 10px 0;
+    }
+}
